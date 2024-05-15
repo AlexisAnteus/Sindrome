@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Poppins;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #E55D87;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 15px;
+	background: #d21652;  /* fallback for old browsers */
+	
+}
+
+h1 a {
+	text-decoration: none;
+	color: #000000;
+}
+
+nav,
+.user {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #00fff2;
+}
+
+.username {
+	color: #00fff2;
+}
+
+.btn-logout {
+	border: 1px solid #fff;
+	background: none;
+	color: #968b8b;
+	padding: 5px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.btn-logout:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+/*  */
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 10px 0;
+	text-align: center;
+}
